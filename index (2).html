@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Auto Verkaufen Formular</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/form-elements.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.png" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="assets/ico/apple-touch-icon-144-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="assets/ico/apple-touch-icon-114-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="assets/ico/apple-touch-icon-72-precomposed.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="assets/ico/apple-touch-icon-57-precomposed.png"
+    />
+  </head>
+
+  <body>
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#top-navbar-1"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ankauf Formular</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <span class="li-text">
+                ZEAITER Automobile, Autoankauf & Autoexport wir sind seit 2009
+                in der Export Auto Ankauf tätig
+              </span>
+              <a href="#"><strong>links</strong></a>
+              <span class="li-text"> here, or some icons: </span>
+              <span class="li-social">
+                <a href="https://www.facebook.com/schweiz.auto.ankauf.ch"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="https://twitter.com/ZeaiterAutomob1"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-skype"></i></a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top content -->
+    <div class="top-content">
+      <div class="inner-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text">
+              <h1><strong>Ankauf</strong>Formular</h1>
+              <div class="description">
+                <p>
+                  Wir Kaufen Ihr Auto! Bitte füllen Sie unser Ankauf Formular
+                  aus und sie erhalten im kurzen ein unverbindliches Angebot von
+                  uns.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 form-box">
+              <div class="form-top">
+                <div class="form-top-left">
+                  <h2 class="kontaktiere-uns text">
+                    <strong>Kontaktiere uns</strong>
+                  </h2>
+                  <p>Fill in the form below to send us a message:</p>
+                </div>
+                <div class="form-top-right">
+                  <i class="fa fa-envelope"></i>
+                </div>
+              </div>
+
+              <div class="form-bottom contact-form">
+                <form role="form" action="/cgi-sys/FormMail.cgi" method="post">
+                  <div class="form-group">
+                    <label
+                      class="form-group text"
+                      for="Auto-marke"
+                      name="marke"
+                    >
+                      Marke
+
+                      <span class="required" aria-hidden="true">*</span>
+                    </label>
+
+                    <select class="form-control form-control-lg">
+                      <option value="Bitte auswählen">Bitte auswählen</option>
+
+                      <option value="Alfa Romeo">Alfa Romeo</option>
+
+                      <option value="Audi">Audi</option>
+
+                      <option value="BMW">BMW</option>
+
+                      <option value="Chevrolet">Chevrolet</option>
+
+                      <option value="Chrysler">Chrysler</option>
+
+                      <option value="Citroen">Citroen</option>
+
+                      <option value="Dacia">Dacia</option>
+
+                      <option value="Daewoo">Daewoo</option>
+
+                      <option value="Daihatsu">Daihatsu</option>
+
+                      <option value="Fiat">Fiat</option>
+
+                      <option value="Ford">Ford</option>
+
+                      <option value="Honda">Honda</option>
+
+                      <option value="Hyundai">Hyundai</option>
+
+                      <option value="Isuzu">Isuzu</option>
+
+                      <option value="Jeep">Jeep</option>
+
+                      <option value="Kia">Kia</option>
+
+                      <option value="Lancia">Lancia</option>
+
+                      <option value="Land Rover">Land Rover</option>
+
+                      <option value="Lexus">Lexus</option>
+
+                      <option value="Mazda">Mazda</option>
+
+                      <option value="Mercedes-Benz">Mercedes-Benz</option>
+
+                      <option value="MG">MG</option>
+
+                      <option value="MINI">MINI</option>
+
+                      <option value="Mitsubishi">Mitsubishi</option>
+
+                      <option value="Nissan">Nissan</option>
+
+                      <option value="Opel">Opel</option>
+
+                      <option value="Peugeot">Peugeot</option>
+
+                      <option value="Renault">Renault</option>
+
+                      <option value="Saab">Saab</option>
+
+                      <option value="Seat">Seat</option>
+
+                      <option value="Skoda">Skoda</option>
+
+                      <option value="Smart">Smart</option>
+
+                      <option value="Subaru">Subaru</option>
+
+                      <option value="Suzuki">Suzuki</option>
+
+                      <option value="Toyota">Toyota</option>
+
+                      <option value="VW">VW</option>
+
+                      <option value="Volvo">Volvo</option>
+
+                      <option value="Andere">Andere</option>
+
+                      <option value=""></option>
+
+                      <option value=""></option>
+
+                      <option value=""></option>
+
+                      <option value=""></option>
+
+                      <option value=""></option>
+
+                      <option value=""></option>
+
+                      <optgroup label=""></optgroup>
+                    </select>
+                  </div>
+                  <br />
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label class="form-group text" for="Auto-marke">
+                        Modell/TYP
+
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        name="modell"
+                        placeholder="Beispiel: GTI, R32, MPS, M3, C63 AMG..."
+                        class="contact-name form-control"
+                        id="contact-name"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label
+                        class="form-group text"
+                        for="Jahrgang"
+                        name="jhargang"
+                      >
+                        Inv.Jahrgang
+
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+
+                      <select class="form-control form-control-lg">
+                        <option value="Bitte auswählen">Bitte auswählen</option>
+
+                        <option value="2022">2022</option>
+
+                        <option value="2021">2021</option>
+
+                        <option value="2020">2020</option>
+
+                        <option value="2019">2019</option>
+
+                        <option value="2018">2018</option>
+
+                        <option value="2017">2017</option>
+
+                        <option value="2016">2016</option>
+
+                        <option value="2015">2015</option>
+
+                        <option value="2014">2014</option>
+
+                        <option value="2013">2013</option>
+
+                        <option value="2012">2012</option>
+
+                        <option value="2011">2011</option>
+
+                        <option value="2010">2010</option>
+
+                        <option value="2009">2009</option>
+
+                        <option value="2008">2008</option>
+
+                        <option value="2007">2007</option>
+
+                        <option value="2006">2006</option>
+
+                        <option value="2005">2005</option>
+
+                        <option value="2004">2004</option>
+
+                        <option value="2003">2003</option>
+
+                        <option value="2002">2002</option>
+
+                        <option value="2001">2001</option>
+
+                        <option value="2000">2000</option>
+
+                        <option value="1999">1999</option>
+
+                        <option value="1998">1998</option>
+
+                        <option value="1997 U. vor">1997 U. vor</option>
+
+                        <optgroup label=""></optgroup>
+                      </select>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label
+                        class="form-group text"
+                        for="Treibstoff"
+                        name="treibstoff"
+                        >Treibstoff
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+
+                      <select class="form-control form-control-lg">
+                        <option value="Bitte auswählen">Bitte auswählen</option>
+
+                        <option value="Benzin">Benzin</option>
+
+                        <option value="Bioethanol">Bioethanol</option>
+
+                        <option value="Diesel">Diesel</option>
+
+                        <option value="Elektro">Elektro</option>
+
+                        <option value="CNG/Gas">CNG/Gas</option>
+
+                        <option value="LPG/Gas">LPG/Gas</option>
+
+                        <option value="Hybrid/Benzin">Hybrid/Benzin</option>
+
+                        <option value="Hybrid/Diesel">Hybrid/Diesel</option>
+
+                        <optgroup label=""></optgroup>
+                      </select>
+                    </div>
+                    <br />
+
+                    <div class="form-group">
+                      <label
+                        class="form-group text"
+                        for="kilometerstand"
+                        name="kilometerstand"
+                        >Kilometerstand
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+
+                      <select class="form-control form-control-lg">
+                        <option value="Bitte auswählen">Bitte auswählen</option>
+
+                        <option value="0-50'000 Km">0-50'000 Km</option>
+
+                        <option value="50'000-75'000 Km">
+                          50'000-75'000 Km
+                        </option>
+
+                        <option value="75'000-100'000 Km">
+                          75'000-100'000 Km
+                        </option>
+
+                        <option value="100'000-150'000 Km">
+                          100'000-150'000 Km
+                        </option>
+
+                        <option value="150'000-200'000 Km">
+                          150'000-200'000 Km
+                        </option>
+
+                        <option value="200'000 Km und über">
+                          200'000 Km und über
+                        </option>
+
+                        <optgroup label=""></optgroup>
+                      </select>
+                    </div>
+                    <br />
+                    <div name="unfall">
+                      <h3 class="white-h3 text">Unfall</h3>
+                      <label class="container text"
+                        >Ja
+                        <input class="input" type="radio" checked="checked" />
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="container text"
+                        >Nein
+                        <input class="input" type="radio" name="radio" />
+                        <span class="checkmark"></span>
+                      </label>
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label class="form-group text" for="preis">
+                        Preis
+
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        name="preis"
+                        placeholder="Beispiel: 1000 CHF..."
+                        class="contact-name form-control"
+                        id="contact-name"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group text">
+                      <label id="Vorname" for="Vorname"
+                        >Vorname:<span class="required" aria-hidden="true"
+                          >*</span
+                        ></label
+                      >
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        id="Vorname"
+                        name="vorname"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group text">
+                      <label id="Nachname" for="Nachname:"
+                        >Nachname:<span class="required" aria-hidden="true"
+                          >*</span
+                        ></label
+                      >
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        id="Nachname"
+                        name="nachname"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label class="form-group text" for="Abholort"
+                        >Abholort</label
+                      >
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        name="abholort"
+                        placeholder="Beispiel: Zürich, Bern, Basel..."
+                        class="contact-name form-control"
+                        id="contact-name"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label class="form-group text" for="Auto-model-typ"
+                        >Telefon<span class="required" aria-hidden="true"
+                          >*</span
+                        ></label
+                      >
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        name="telefon"
+                        placeholder="Beispiel: 079 915 74 64."
+                        class="contact-name form-control"
+                        id="contact-name"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label class="form-group text" for="email">
+                        E-Mail
+
+                        <span class="required" aria-hidden="true">*</span>
+                      </label>
+                      <input
+                        class="form-control form-control-lg"
+                        type="text"
+                        name="email"
+                        placeholder="Beispiel: Mustermann@hotmail.com ..."
+                        class="email"
+                        id="email"
+                      />
+                    </div>
+                    <br />
+                    <div class="form-group">
+                      <label class="form-group text" for="Bemerkungen"
+                        >Bemerkungen</label
+                      >
+                      <textarea
+                        name="bemerkungen"
+                        placeholder="Beispiel: Getriebe defekt, Motorschaden, Klima defekt ..."
+                        class="Bemerkungen form-control"
+                        id="contact-message"
+                      ></textarea>
+                    </div>
+                    <br />
+                  </div>
+                  <button type="submit" name="submit" class="btn senden">
+                    Senden</button
+                  ><br /><br />
+                  <p class="text-left">
+                    Wir bieten mit die besten Preise für Fahrzeuge egal ob Pkw,
+                    Geländewagen, Transporter, Lkw, Firmenwagen oder Bus und
+                    garantieren sichere-schnelle Abwicklung und zuverlässige
+                    Zahlung. Autoankauf ob gepflegte Gebrauchtwagen oder mit
+                    Mängeln, hoher Kilometerleistung, kein MFK, große/kleine
+                    Unfallschäden, Dellen/Beulen, Motorschaden, Turboschaden,
+                    Getriebeschaden, Kupplungsschaden, Roststellen etc...
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" name="conf" value="my_form"/>
+    <input type="hidden" name="recipient" value="nabil.zt@hotmail.com"/>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+    <!--[if lt IE 10]>
+      <script src="assets/js/placeholder.js"></script>
+    <![endif]-->
+  </body>
+</html>
